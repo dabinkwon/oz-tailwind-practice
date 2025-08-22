@@ -10,7 +10,7 @@ export default function Content({ content }) {
         모집중
       </span>
       <div className="text-lg font-semibold">{content.title}</div>
-      <p className="text-x text-[rgb(160,160,160)]">{content.subtitle}</p>
+      <p className="text-[12px] text-[rgb(160,160,160)]">{content.subtitle}</p>
     </div>
   );
 }
